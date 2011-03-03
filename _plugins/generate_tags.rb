@@ -146,7 +146,7 @@ module Jekyll
 	def tag_cloud(tags)
 		
 		maxFontSize = 200
-		minFontSize = 80
+		minFontSize = 100
 	
 		html = String.new	
 		

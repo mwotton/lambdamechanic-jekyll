@@ -12,7 +12,7 @@ a,
 a:hover,
 a:visited	{ color: #000080; }
 
-p				{ font-size: 1.4em; margin: 4px 0 12px; }
+p				{ margin: 4px 0 12px; }
 
 /* HEADER */
 
@@ -34,7 +34,7 @@ nav a						{ font-size: 1.6em; text-decoration: none; margin-left: 12px; }
 /* TAG CLOUDS */
 
 .text			{ font-size: 1.4em; }
-.tag-cloud	{ margin: 18px 0 0; }
+.tag-cloud	{ margin: 18px 0 0; line-height: 1.5em;}
 
 
 /* TEASERS */
