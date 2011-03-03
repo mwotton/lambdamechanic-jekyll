@@ -15,6 +15,12 @@ Most Jekyll sites that I've seen implement the following items:
 
 So this starter template uses all of those elements. Most everything can be set in the _config.yml. If something is missing, such as the Google Analytics id or the Disqus id, the site will not generate the associated code.
 
+h2. HTML5, CSS, JQuery
+
+The site is full HTML5 compatible. It uses a CSS reset and a base CSS. I recommend that you only modify ==/css/style.css==. I've put basic CSS on most all of the elements, so you can see what needs to be changed.
+
+The site will use JQuery from Google. 
+
 h2. Categories, Tags and Tag Clouds
 
 The categories and tags are based on a "blog entry of Jekyll hacks":http://recursive-design.com/projects/jekyll-plugins/. 
