@@ -1,7 +1,5 @@
 module Jekyll
 
-	require 'ruby-debug'
-
   class CategoryPagination < Generator
     safe true
 
