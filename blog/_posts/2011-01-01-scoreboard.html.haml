@@ -28,9 +28,18 @@ results:
       jfredett: https://github.com/jfredett/bash/tree/master/lockbox
       mwotton: http://lambdamechanic.com
 ---
+%h1 How're we going so far?
 %table
-        
-How're we going so far?
+  %tr
+    %td
+      - raise methods.sort.to_s
+      - results['participants'].each do |player, details|
+        %td= player
+  - results['weeks'].each do |week|
+    %tr
+      %td= week['deadline']
+      - results['participants'].each do |player, details|
+        %td= week['participants'][player] ? details : "Uh-oh"
 
 
 
