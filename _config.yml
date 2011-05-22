@@ -15,13 +15,13 @@ permalink:   /:categories/:title
 paginate:    20
 #limit_posts: 20
 
-title:         Your Site's Title Here
-description:   You Site's Description Here
-base:          http://www.domain.com
-author:        Your Name Here
-email:         me@domain.com
+title:         Lambda Mechanic 
+description:   One project. One week. No excuses.
+base:          http://lambdamechanic.com
+author:        Mark Wotton
+email:         mwotton@gmail.com
 
-disqus_id:     disqus
+# disqus_id:     disqus
 google_analytics:  UA-XXXXXX-1
 redirects:   true
 
